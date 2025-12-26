@@ -9,6 +9,7 @@ public class StsCheckApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StsCheckApplication.class, args);
 		System.out.println("serverStarted.../");
+		System.out.println("first request..//");
 	}
 
 }
