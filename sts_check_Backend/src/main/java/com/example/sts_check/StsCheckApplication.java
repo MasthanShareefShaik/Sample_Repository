@@ -10,6 +10,7 @@ public class StsCheckApplication {
 		SpringApplication.run(StsCheckApplication.class, args);
 		System.out.println("serverStarted.../");
 		System.out.println("first request..//");
+		System.out.println("i have added this line in hotfix");
 	}
 
 }
