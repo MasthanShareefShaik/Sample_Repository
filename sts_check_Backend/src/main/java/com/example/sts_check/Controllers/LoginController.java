@@ -11,5 +11,11 @@ public class LoginController {
 	public String saveLogin() {
 		return "User login was success";
 	}
+	
+	@GetMapping("/getallusers")
+	public String getUsersList()
+	{
+		return "List of all users feched success";
+	}
 
 }
