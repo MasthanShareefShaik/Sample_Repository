@@ -7,5 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/student")
 public class StudentController {
 	
-
+	public String pipelinecheck() {
+		System.out.println("pipeline");
+		return "second method to check pile";
+	}
 }
