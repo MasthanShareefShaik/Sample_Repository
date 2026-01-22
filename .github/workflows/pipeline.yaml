@@ -1,8 +1,6 @@
-name: My Application Pipeline
-
 on:
   push:
-    branches: [ main ]
+    branches: [ develop, main ]
   pull_request:
     branches: [ develop, main ]
 
@@ -15,14 +13,14 @@ jobs:
 
       - uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '22'
+          distribution: temurin
+          java-version: '17'
           cache: maven
 
       - name: Compile project
         run: mvn clean compile
+        working-directory: sts_check_Backend
 
       - name: Run tests
         run: mvn test
-
-        run: npm test
+        working-directory: sts_check_Backend
