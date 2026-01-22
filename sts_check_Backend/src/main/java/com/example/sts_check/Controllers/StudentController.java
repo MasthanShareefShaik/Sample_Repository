@@ -7,5 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/student")
 public class StudentController {
 	
-
+public boolean pipline_check_method() {
+	System.out.println("third pipe line check");
+	return true;
+}
 }
