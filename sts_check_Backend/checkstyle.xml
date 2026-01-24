@@ -15,19 +15,20 @@
     <module name="TreeWalker">
 
         <!-- Naming conventions -->
-        <module name="ClassName">
+
+      <module name="ClassNameCheck">
             <property name="format" value="^[A-Z][a-zA-Z0-9]*$"/>
         </module>
 
-        <module name="MethodName">
+        <module name="MethodNameCheck">
             <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
         </module>
 
-        <module name="ParameterName">
+        <module name="ParameterNameCheck">
             <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
         </module>
 
-        <module name="LocalVariableName">
+        <module name="LocalVariableNameCheck">
             <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
         </module>
 
