@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/student")
 public class StudentController {
-	
+	public void pipelinecheck() {
+		System.out.println("pipe checked");
+	}
 
 }
